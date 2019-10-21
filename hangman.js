@@ -1,10 +1,6 @@
-let wordChoices = [
-  'blackbeard',
-  'bossman',
-  'bristol',
-  'monsieur',
-  'cucumber'
-];
+
+import {wordChoices} from "./secondary.js"
+
 let result = 0;
 let wordStorage = '';
 let guesses = '';
@@ -71,7 +67,6 @@ function initializeGame() {
   wordStorage = '';
   guesses = '';
   missStorage = '';
-
   word.innerText = '';
   guess.value = '';
   misses.innerText = '';
