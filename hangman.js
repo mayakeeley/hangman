@@ -1,6 +1,9 @@
 let wordChoices = [
   'blackbeard',
-  'bossman'
+  'bossman',
+  'bristol',
+  'monsieur',
+  'cucumber'
 ];
 let result = 0;
 let wordStorage = '';
