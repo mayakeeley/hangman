@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
 }
 
 .container {
@@ -28,7 +33,7 @@
 }
 
 .hook {
-  width: 63px;
+  width: 125px;
   height: 50px;
   border: solid 25px black;
   border-bottom: none;
@@ -40,8 +45,8 @@
   width: 100px;
   height: 175px;
   position: absolute;
-  top: 75px;
-  left: 25px;
+  top: 50px;
+  left: 23px;
 }
 
 .man-1 {
@@ -60,8 +65,8 @@
   width: 10px;
   height: 70px;
   position: absolute;
-  top: 57px;
-  left: 45px;
+  top: 37px;
+  left: 34px;
   display: none;
 }
 
@@ -71,7 +76,7 @@
   height: 60px;
   position: absolute;
   top: 30px;
-  left: 21px;
+  left: 13px;
   transform: rotate(-50deg);
   display: none;
 }
@@ -82,7 +87,7 @@
   height: 60px;
   position: absolute;
   top: 30px;
-  right: 21px;
+  right: 36px;
   transform: rotate(50deg);
   display: none;
 }
@@ -92,8 +97,8 @@
   width: 10px;
   height: 60px;
   position: absolute;
-  bottom: -2px;
-  left: 25px;
+  bottom: 18px;
+  left: 15px;
   transform: rotate(40deg);
   display: none;
 }
@@ -103,8 +108,8 @@
   width: 10px;
   height: 60px;
   position: absolute;
-  bottom: -2px;
-  right: 25px;
+  bottom: 18px;
+  right: 37px;
   transform: rotate(-40deg);
   display: none;
 }
@@ -117,12 +122,13 @@
 #word {
   text-align: left;
   font-size: 25px;
+  padding-top:10vh;
 }
 
 .guess-container {
   text-align: left;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 10vh;
 }
 
 #guess {
@@ -138,11 +144,11 @@
 #misses {
   text-align: left;
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 10vh;
 }
 
 .instruction {
   text-align: left;
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 10vh;
 }
