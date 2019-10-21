@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: #56bc8a;
+  color: white;
 }
 
 body {
   display: flex;
+  
 }
 
 .container {
@@ -14,18 +17,20 @@ body {
   height: 300px;
   margin: 30px auto;
   position: relative;
+  
 }
 
 .vertical {
-  background: black;
+  background: white;
   width: 25px;
   height: 300px;
   position: absolute;
   right: 25px;
+  
 }
 
 .horizontal {
-  background: black;
+  background: white;
   width: 200px;
   height: 25px;
   position: absolute;
@@ -35,7 +40,7 @@ body {
 .hook {
   width: 125px;
   height: 50px;
-  border: solid 25px black;
+  border: solid 25px white;
   border-bottom: none;
   position: absolute;
   right: 25px;
@@ -52,7 +57,7 @@ body {
 .man-1 {
   width: 40px;
   height: 40px;
-  border: solid 10px black;
+  border: solid 10px white;
   border-radius: 50%;
   position: absolute;
   top: -2px;
@@ -61,7 +66,7 @@ body {
 }
 
 .man-2 {
-  background: black;
+  background: white;
   width: 10px;
   height: 70px;
   position: absolute;
@@ -71,7 +76,7 @@ body {
 }
 
 .man-3 {
-  background: black;
+  background: white;
   width: 10px;
   height: 60px;
   position: absolute;
@@ -82,7 +87,7 @@ body {
 }
 
 .man-4 {
-  background: black;
+  background: white;
   width: 10px;
   height: 60px;
   position: absolute;
@@ -93,7 +98,7 @@ body {
 }
 
 .man-5 {
-  background: black;
+  background: white;
   width: 10px;
   height: 60px;
   position: absolute;
@@ -104,7 +109,7 @@ body {
 }
 
 .man-6 {
-  background: black;
+  background: white;
   width: 10px;
   height: 60px;
   position: absolute;
@@ -136,7 +141,7 @@ body {
   text-align: center;
   width: 50px;
   border: none;
-  border: solid 2px black;
+  border: solid 2px white;
   outline: none;
   text-transform: capitalize;
 }
