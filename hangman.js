@@ -61,7 +61,7 @@ function generateMisses() {
   missedLetters = missedLetters.substring(0, missedLetters.length - 2);
   misses.innerHTML = 'MISSES: ' + missedLetters;
 
-  if (missStorage.length >= 5) {
+  if (missStorage.length >= 6) {
     result = 2;
   }
 }
