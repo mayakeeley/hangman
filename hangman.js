@@ -22,6 +22,7 @@ function generateGuessWord() {
   let guessWord = '';
   let isFinish = true;
 
+  
   for (let i = 0; i < wordStorage.length; i++) {
     if (wordStorage[i] != ' ') {
       if (guesses.toUpperCase().indexOf(wordStorage[i].toUpperCase()) >= 0) {
