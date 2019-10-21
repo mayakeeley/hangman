@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
-  <article id="alphabet-buttons"></article>
+  <div class="container">
+    <div class="hook"></div>
+    <div class="vertical"></div>
+    <div class="horizontal"></div>
+    <div class="man">
+      <div class="man-0 man-1"></div>
+      <div class="man-0 man-2"></div>
+      <div class="man-0 man-3"></div>
+      <div class="man-0 man-4"></div>
+      <div class="man-0 man-5"></div>
+      <div class="man-0 man-6"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="word"></div>
+    <div class="guess-container">
+      GUESS: <input type="text" id="guess" maxlength="1">
+    </div>
+    <div class="instruction">
+      INSTRUCTION:<br>
+      Enter your guess at the box above.<br>
+      Press "ENTER" key to submit your answer.
+    </div>
+    <div id="misses"></div>
+  </div>
+
+<!-- 
+  <article id="alphabet-buttons"></article> -->
+  
 </body>
 <script src="main.js"></script>
+<script src="hangman.js"></script>
+
 </html>
